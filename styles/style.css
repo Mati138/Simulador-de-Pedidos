@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 48px;
+}
+.presentacion h1, .resumen-pedido h2{
+    font-size: 56px;
+    font-weight: 800;
+}
+.container-variedad{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.contenido-variedad{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    gap: 32px;
+}
+.contenido-variedad-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contenido-variedad-texto h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.contenido-variedad-texto p{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+.precio{
+    font-size: 24px;
+    font-weight: 600;
+}
+.contenido-variedad button{
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contenido-variedad button:hover{
+    background-color: #ff4500;
+}
+.img-variedad{
+    width: 200px;
+    height: 100%;
+}
+.img-variedad img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.resumen-pedido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 48px ;
+    gap: 32px;
+}
