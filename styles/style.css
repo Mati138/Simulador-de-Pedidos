@@ -86,3 +86,18 @@ body{
     margin-bottom: 48px ;
     gap: 32px;
 }
+.resumen-pedido-elemento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+}
+.resumen-pedido-elemento button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #bf2206;
+    border: none;
+}
+.resumen-pedido-elemento button:hover{
+    background-color: #b93b25;
+}
